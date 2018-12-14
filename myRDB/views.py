@@ -1,7 +1,7 @@
 import csv
 from datetime import datetime
 
-from django.core.paginator import PageNotAnInteger, EmptyPage
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.db.models import F
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404
