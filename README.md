@@ -1,0 +1,2 @@
+# rechteDBprototype
+Prototype for rechteDB
