@@ -9,6 +9,7 @@ urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
     path('profile/compare/', views.Compare.as_view(), name='compare'),
     path('csvToMongo/', views.CSVtoMongoDB.as_view(), name='csvToMongo'),
+    path('users/', views.Users.as_view(), name='users'),
     path('profile/', views.Profile.as_view(), name='profile'),
     path('login/', views.Login.as_view(), name='login'),
     path('password_reset/', views.Password_Reset.as_view(), name='password_reset'),

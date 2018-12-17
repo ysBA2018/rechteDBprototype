@@ -8,6 +8,9 @@ from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 from django.urls import reverse
 from django.views import generic
+from rest_framework.renderers import TemplateHTMLRenderer
+from rest_framework.views import APIView
+from rest_framework.response import Response
 
 from .forms import SomeForm, CustomUserCreationForm
 from .models import *
@@ -95,6 +98,14 @@ class Compare(generic.ListView):
         self.extra_context['tf_count'] = tf_count
         return list(data)
 
+class Users(APIView):
+    renderer_classes = [TemplateHTMLRenderer]
+    template_name='myRDB/users.html'
+
+    def get(self, request):
+        queryset = User.objects.all()
+        print(queryset)
+        return Response({'users':queryset})
 
 class Profile(generic.ListView):
     model = User
