@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="uwsgi_params" type="Native" />
       <mapping pattern="as_json.py" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="sqlite3" type="PLAIN_TEXT" />
       <mapping pattern="HttpPostTunnelingMiddleware" type="Python" />
     </extensionMap>
