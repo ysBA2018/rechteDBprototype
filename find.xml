@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\myRDB_Project\uwsgi_params [myRDB]'" />
-    <option name="defaultScopeName" value="File '...\myRDB_Project\uwsgi_params [myRDB]'" />
-    <option name="SEARCH_SCOPE" value="File '...\myRDB_Project\uwsgi_params [myRDB]'" />
+    <option name="customScope" value="Project 'Rapp_myRDB'" />
+    <option name="defaultScopeName" value="Project 'Rapp_myRDB'" />
+    <option name="SEARCH_SCOPE" value="Project 'Rapp_myRDB'" />
   </component>
 </application>
