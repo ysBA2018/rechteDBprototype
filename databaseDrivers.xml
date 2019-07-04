@@ -59,7 +59,13 @@
       <option name="source-loading" value="USER_SOURCES" />
       <option name="schema-control" value="AUTOMATIC" />
       <library>
+        <url>file://D:/MariaDB/lib/plugin/JdbcInterface.jar</url>
+      </library>
+      <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MariaDB Connector J/2.4.1/mariadb-java-client-2.4.1.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J 8/8.0.15/mysql-connector-java-8.0.15.jar</url>
       </library>
     </driver>
     <driver id="oracle">
